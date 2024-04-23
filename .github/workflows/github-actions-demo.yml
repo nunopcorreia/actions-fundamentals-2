@@ -3,8 +3,8 @@ on:
   push:
     branches: 
       - main
-    branches-ignore: 
-      - ./.github
+    paths-ignore:
+      - .github/**
   pull_request:
     branches: 
       - main
